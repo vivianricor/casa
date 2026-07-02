@@ -1,0 +1,19 @@
+baseURL = "http://example.org/"
+languageCode = "es-mx"
+title = "Vivian Rico"
+theme = "PaperMod"
+
+[params]
+disableThemeToggle = true
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = false
+ShowToc = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      

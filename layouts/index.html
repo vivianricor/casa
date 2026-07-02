@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<section class="home">
+  <h1 class="site-title">{{ .Site.Title }}</h1>
+
+  <div class="poem-index">
+    {{ range where .Site.RegularPages "Section" "poems" }}
+    <a class="poem-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

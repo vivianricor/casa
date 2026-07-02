@@ -1,0 +1,70 @@
+:root{
+    --text:#111;
+    --background:#ffffff;
+}
+
+html{
+    background:var(--background);
+}
+
+body{
+    margin:0;
+    color:var(--text);
+    background:var(--background);
+
+    font-family:
+        Inter,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    -webkit-font-smoothing:antialiased;
+}
+
+.home{
+
+    max-width:620px;
+
+    margin:120px auto;
+
+    padding:0 40px;
+
+}
+
+.site-title{
+
+    font-size:28px;
+
+    font-weight:500;
+
+    margin-bottom:90px;
+
+}
+
+.poem-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+
+}
+
+.poem-link{
+
+    color:#111;
+
+    text-decoration:none;
+
+    font-size:21px;
+
+    transition:.2s;
+
+}
+
+.poem-link:hover{
+
+    opacity:.45;
+
+}

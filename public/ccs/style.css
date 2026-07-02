@@ -1,0 +1,170 @@
+/* ===========================
+   CASA — VERSIÓN 1.0
+   Sitio poético de Vivian Rico
+=========================== */
+
+
+/* 1. BASE */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f1ea;
+  color: #111;
+  font-family: Georgia, serif;
+}
+
+
+/* 2. PORTADA / ÍNDICE */
+
+.home {
+  width: min(520px, 88vw);
+  margin: 120px auto;
+  min-height: 72vh;
+  padding: 70px 80px;
+  background: #fbfaf7;
+}
+
+.site-title {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .44em;
+  text-transform: uppercase;
+  margin: 0 0 160px 0;
+}
+
+.poem-index {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.poem-link {
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .18em;
+  transition: .45s;
+}
+
+.poem-link:hover {
+  opacity: .35;
+}
+
+
+/* 3. PÁGINA DEL POEMA */
+
+.poem {
+  width: min(520px, 88vw);
+  margin: 90px auto 160px auto;
+  padding: 70px 80px;
+  background: #fbfaf7;
+  min-height: 78vh;
+}
+
+.poem h1 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .32em;
+  text-transform: uppercase;
+  margin: 0 0 85px 0;
+}
+
+.poem-body {
+  max-width: 420px;
+  font-size: 15px;
+  line-height: 2.25;
+  letter-spacing: .03em;
+}
+
+.poem-body p {
+  margin: 0 0 2.8em 0;
+}
+
+
+/* 4. PIE DEL POEMA */
+
+.poem-footer {
+  margin-top: 140px;
+  padding-top: 50px;
+}
+
+.back {
+  color: #666;
+  font-size: 12px;
+  letter-spacing: .18em;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.back:hover {
+  color: #111;
+}
+
+
+/* 5. MÓVIL */
+
+@media (max-width: 700px) {
+
+  body {
+    background: #fbfaf7;
+  }
+
+  .home {
+    width: 100%;
+    margin: 0;
+    min-height: 100vh;
+    padding: 90px 42px;
+    background: #fbfaf7;
+  }
+
+  .site-title {
+    font-size: 11px;
+    letter-spacing: .38em;
+    margin-bottom: 130px;
+  }
+
+  .poem-index {
+    gap: 34px;
+  }
+
+  .poem-link {
+    font-size: 13px;
+    letter-spacing: .16em;
+  }
+
+  .poem {
+    width: 100%;
+    margin: 0;
+    min-height: 100vh;
+    padding: 80px 42px 110px;
+    background: #fbfaf7;
+  }
+
+  .poem h1 {
+    font-size: 12px;
+    letter-spacing: .28em;
+    margin-bottom: 80px;
+  }
+
+  .poem-body {
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 2.15;
+  }
+
+  .poem-footer {
+    margin-top: 110px;
+    padding-top: 0;
+  }
+
+  .back {
+    font-size: 11px;
+    letter-spacing: .18em;
+  }
+
+}
