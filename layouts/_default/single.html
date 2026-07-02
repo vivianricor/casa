@@ -2,19 +2,19 @@
 
 <article class="poem">
 
-<h1>{{ .Title }}</h1>
+  <h1>{{ .Title }}</h1>
 
-<div class="poem-body">
-{{ .Content }}
-</div>
+  <div class="poem-body">
+    {{ .Content }}
+  </div>
 
-<footer class="poem-footer">
+  <footer class="poem-footer">
 
-<a class="back" href="/">
-← índice
-</a>
+    <a class="back" href="{{ "/" | relURL }}">
+      ← índice
+    </a>
 
-</footer>
+  </footer>
 
 </article>
 
