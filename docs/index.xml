@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vivian Rico</title>
+    <link>https://vivianricor.github.io/casa/</link>
+    <description>Recent content on Vivian Rico</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vivianricor.github.io/casa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plumas</title>
+      <link>https://vivianricor.github.io/casa/poems/primer-poema/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://vivianricor.github.io/casa/poems/primer-poema/</guid>
+      <description>&lt;p&gt;Llegué a creer que el cuervo sólo era una sombra
+que a veces aparecía a mi lado,
+pero de vez en vez me voy
+encontrando con plumas en el piso.&lt;/p&gt;
+&lt;p&gt;Los pájaros en la calle me miran
+y me siguen, incluso los canarios,
+se meten a mi casa,
+vuelan por el techo
+y salen de nuevo por la ventana,
+ellos lo saben,
+se dieron cuenta
+que el cuervo no es solo mi sombra.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

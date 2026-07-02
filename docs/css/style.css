@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f1eb;
+  color: #111;
+  font-family: "Crimson Pro", Georgia, serif;
+}
+.back {
+  font-family: "Inter", sans-serif;
+}
+
+.site-title,
+.poem-link {
+  font-family: "Crimson Pro", Georgia, serif;
+}
+
+/* ===========================
+   PORTADA
+=========================== */
+
+.home {
+  width: min(520px, 88vw);
+  margin: 120px auto;
+  min-height: 72vh;
+}
+
+.site-title{
+  font-size:14px;
+  font-weight:400;
+  letter-spacing:.42em;
+  text-transform:uppercase;
+  margin-bottom:110px;
+}
+
+/* Índice del libro */
+
+.poem-index{
+  display:flex;
+  flex-direction:column;
+  gap:48px;
+}
+
+.poem-link{
+  color:#111;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:400;
+  letter-spacing:.22em;
+  transition:.45s;
+}
+
+.poem-link:hover{
+  opacity:.35;
+}
+
+/* ===========================
+   PÁGINA DEL POEMA
+=========================== */
+
+.poem {
+  width: min(520px, 88vw);
+  margin: 90px auto 160px auto;
+  padding: 70px 80px;
+  background: #fbfaf7;
+  min-height: 78vh;
+}
+
+.back {
+  display:inline-block;
+  margin-bottom:95px;
+  font-size:11px;
+  letter-spacing:.24em;
+  color:#111;
+  text-decoration:none;
+  transition:.45s;
+}
+
+.back:hover{
+  opacity:.35;
+}
+
+.poem h1 {
+  font-size:17px;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  margin:0 0 70px 0;
+}
+
+.poem-body{
+    max-width:430px;
+    font-size:18px;
+    line-height:2.15;
+    letter-spacing:.01em;
+}
+
+.poem-body p {
+  margin:0 0 2.8em 0;
+}
+
+/* ===========================
+   MÓVIL
+=========================== */
+
+@media (max-width:700px){
+
+  .home,
+  .poem{
+    width:min(90vw,520px);
+    padding:50px 40px;
+    margin:60px auto;
+  }
+
+  .site-title{
+    margin-bottom:120px;
+  }
+
+}

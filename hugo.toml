@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://vivianricor.github.io/casa/"
 languageCode = "es-mx"
 title = "Vivian Rico"
 theme = "PaperMod"
+publishDir = "docs"
 
 [params]
 disableThemeToggle = true
