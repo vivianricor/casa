@@ -62,10 +62,8 @@ body {
 
 .poem {
   width: min(520px, 88vw);
-  margin: 90px auto 160px auto;
-  padding: 70px 80px;
-  background: #fbfaf7;
-  min-height: 78vh;
+  margin: 120px auto;
+  min-height: 72vh;
 }
 
 .back {
