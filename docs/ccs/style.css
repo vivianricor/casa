@@ -61,8 +61,6 @@ body {
 .poem {
   width: min(520px, 88vw);
   margin: 90px auto 160px auto;
-  padding: 70px 80px;
-  background: #fbfaf7;
   min-height: 78vh;
 }
 
@@ -141,8 +139,7 @@ body {
     width: 100%;
     margin: 0;
     min-height: 100vh;
-    padding: 80px 42px 110px;
-    background: #fbfaf7;
+    
   }
 
   .poem h1 {

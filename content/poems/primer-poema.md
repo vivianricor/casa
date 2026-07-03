@@ -10,7 +10,6 @@ encontrando con plumas en el piso.
 
 Los pájaros en la calle me miran
 y me siguen, 
-
 incluso los canarios,
 se meten a mi casa,
 vuelan por el techo
